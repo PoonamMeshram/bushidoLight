@@ -6,7 +6,7 @@
       <class name="com.bushidolight.testCases.Useful_Links">
         <methods>
           <include name="setup"/>
-          <include name="use_links"/>
+          <include name="usefulClick"/>
         </methods>
       </class> <!-- com.bushidolight.testCases.Useful_Links -->
     </classes>

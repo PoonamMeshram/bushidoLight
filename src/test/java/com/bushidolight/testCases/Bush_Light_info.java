@@ -13,7 +13,7 @@ public class Bush_Light_info extends BaseClass
 
 	 
 	JavascriptExecutor js = (JavascriptExecutor)driver;
-	//button[@type='button' and @class='navbar-toggle collapsed']
+	
 	
 		By Readmorebutton = By.xpath("//body/section[2]/div[1]/div[1]/div[2]/div[2]/div[2]/div[1]/a[1]");
 		By Popupclosebtn   = By.xpath("//body/section[2]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/button[1]");

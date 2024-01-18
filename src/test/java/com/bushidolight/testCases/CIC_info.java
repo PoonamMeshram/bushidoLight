@@ -8,26 +8,23 @@ import org.testng.annotations.Test;
 
 public class CIC_info extends BaseClass
 {
-
 	@Test (groups={"All"})
-	public void cic_info() throws InterruptedException {
+	public void cic_click() throws InterruptedException {
 
 	 
 	JavascriptExecutor js = (JavascriptExecutor)driver;
 	
 	
-		By Readmorebutton = By.xpath("//body/section[4]/div[1]/div[1]/div[17]/div[2]/div[2]/div[1]/a[1]");
-		By Popupclosebtn   = By.xpath("//body/section[4]/div[1]/div[1]/div[19]/div[1]/div[1]/div[1]/button[1]");
+		By Readmorebutton = By.xpath("//body/section[4]/div[1]/div[1]/div[29]/div[2]/div[2]/div[1]/div[1]/a[1]");
+		By Popupclosebtn   = By.xpath("//body/section[4]/div[1]/div[1]/div[31]/div[1]/div[1]/div[1]/button[1]");
 	
 		WebElement flag = driver.findElement(Readmorebutton);
 		js.executeScript("arguments[0].scrollIntoView();", flag);
-         
+		
 		
 		driver.findElement(Readmorebutton).click();
 		Thread.sleep(3000);
-		//body/section[4]/div[1]/div[1]/div[19]/div[1]/div[1]/div[2]/div[1]
-		
-		String alert = driver.findElement(By.xpath("//body/section[4]/div[1]/div[1]/div[19]/div[1]/div[1]/div[2]/div[1]")).getText();
+		String alert = driver.findElement(By.xpath("//body/section[4]/div[1]/div[1]/div[31]/div[1]/div[1]/div[2]/div[1]")).getText();
 		System.out.println(alert);
 		driver.findElement(Popupclosebtn).click();
 		Thread.sleep(3000);
@@ -42,7 +39,5 @@ public class CIC_info extends BaseClass
 	}
 	  
 }
-
-
 
 
