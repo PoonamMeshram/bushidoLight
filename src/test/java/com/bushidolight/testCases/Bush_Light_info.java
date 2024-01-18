@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 
 public class Bush_Light_info extends BaseClass
 {
-	@Test (groups={"All"})
+	@Test (groups={"Alltest","Bush_Light_info"})
 	public void bushlightinfo() throws InterruptedException {
 
 	 

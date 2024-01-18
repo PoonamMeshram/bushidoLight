@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 
 public class SEE_FAQ extends BaseClass
 {
-	@Test (groups={"All"})
+	@Test (groups={"Alltest","SEE_FAQ"})
 	public void click() throws InterruptedException
 	{
 		By FAQbutton = By.xpath("//a[contains(text(),'SEE FAQ')]");

@@ -21,7 +21,8 @@ public class BaseClass {
 
 	public static WebDriver driver;
     public static WebDriverWait wait; @Parameters({"env","username","password"})
-	@BeforeClass(groups={"All",})
+	@BeforeClass(groups={"Alltest","Bush_Light_info","CIC_info","Contact_Us","CoreValues","HowItWork","Membership_benefits","Mission","OurObjective","PassiveIncome",
+			"PurchaseDeposit","RefundPolicy","SEE_FAQ","SocialMediabtn","Why"})
     public static void setup(@Optional("dev")String env,@Optional ("poonam.meshram@geeconsystems.com") String username, @Optional ("healthy12345") String password) throws InterruptedException
     {
     	try {
@@ -79,7 +80,8 @@ public class BaseClass {
 	
 		
     
-    @AfterClass
+    @AfterClass(groups={"Alltest","Bush_Light_info","CIC_info","Contact_Us","CoreValues","HowItWork","Membership_benefits","Mission","OurObjective","PassiveIncome",
+			"PurchaseDeposit","RefundPolicy","SEE_FAQ","SocialMediabtn","Why"})
     public void close() throws InterruptedException
     {
     	Thread.sleep(3000);

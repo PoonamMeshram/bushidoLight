@@ -9,7 +9,7 @@ public class Contact_Us extends BaseClass
 	{
 	
 	@Parameters({"firstName","lastName","businessName","email","mobile","telephone","reason"})
-	@Test (groups={"All"})
+	@Test (groups={"Alltest","Contact_Us"})
 	public void Form(@Optional("Poonam") String firstName,@Optional("Meshram")String lastName, 
 		@Optional("Geeconsystems")String businessName, @Optional("poonam.meshram@geeconsystems.com")String email,
 		@Optional("9324320252")String mobile, @Optional("1234567890")String telephone, @Optional("testing")String reason)

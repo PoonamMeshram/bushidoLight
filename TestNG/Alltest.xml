@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="bushidoLight">
+
+    <test name="Test">
+    
+            <classes>
+            <class name="org.bushidoLight.testcase.Bush_Light_info" /> 
+            <class name="org.bushidoLight.testcase.CIC_info" /> 
+            <class name="org.bushidoLight.testcase.Contact_info" /> 
+            <class name="org.bushidoLight.testcase.Membershio_benefits"/>
+            <class name="org.bushidoLight.testcase.SEE_FAQ" /> 
+            <class name="org.bushidoLight.testcase.CoreValues" /> 
+            <class name="org.bushidoLight.testcase.HowItWork" /> 
+            <class name="org.bushidoLight.testcase.Mission" /> 
+            <class name="org.bushidoLight.testcase.OurObjective" /> 
+            <class name="org.bushidoLight.testcase.PassiveIncome" /> 
+            <class name="org.bushidoLight.testcase.PurchaseDeposit" /> 
+            <class name="org.bushidoLight.testcase.RefundPolicy" /> 
+            <class name="org.bushidoLight.testcase.SocialMediabtn" /> 
+            <class name="org.bushidoLight.testcase.Why" /> 
+            
+            
+        </classes>
+        
+     </test>
+     
+ </suite>

@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 
 public class CIC_info extends BaseClass
 {
-	@Test (groups={"All"})
+	@Test (groups={"Alltest","CIC_info"})
 	public void cic_click() throws InterruptedException {
 
 	 
